@@ -121,21 +121,27 @@ Aby połączyć się z WebSocketem można skorzystać z darmowej wtyczki do prze
 
 **Wybrane komendy WebSocket Player:**
 
+` Dodanie utworu do kolejki, o ile utwór o takim id istnieje w bazie danych.
 ```json
 {"command": "queue_add", "payload": {"track": 1}}
 ```
+- Zapauzowanie utworu, o ile utwór jest aktualnie odtwarzany.
 ```json
 {"command": "pause"}
 ```
+- Wznowienie utworu, o ile utwór jest zapauzowany.
 ```json
 {"command": "play"}
 ```
+- Pominięcie utworu, o ile jakikolwiek utwór jest odtwarzany.
 ```json
 {"command": "skip"}
 ```
+- Zapętlenie utworu, o ile jakikolwiek utwór jest odtwarzany.
 ```json
 {"command": "loop_track", "payload": true}
 ```
+
 
 
 
