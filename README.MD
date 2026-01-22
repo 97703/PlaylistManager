@@ -53,7 +53,7 @@ Relacje:
 
 ### Autoryzacja i role
 
-- Sesja  
+- Sesja (5 minut po zalogowaniu lub wykonaniu akcji)
 
 - Logowanie i rejestracja  
 
@@ -141,6 +141,7 @@ Aby połączyć się z WebSocketem można skorzystać z darmowej wtyczki do prze
 ```json
 {"command": "loop_track", "payload": true}
 ```
+
 
 
 
