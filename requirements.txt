@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pytest
+websockets
+passlib
+email-validator
+bcrypt==4.0.1
+httpx
