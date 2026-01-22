@@ -121,7 +121,7 @@ Aby połączyć się z WebSocketem można skorzystać z darmowej wtyczki do prze
 
 **Wybrane komendy WebSocket Player:**
 
-` Dodanie utworu do kolejki, o ile utwór o takim id istnieje w bazie danych.
+- Dodanie utworu do kolejki, o ile utwór o takim id istnieje w bazie danych.
 ```json
 {"command": "queue_add", "payload": {"track": 1}}
 ```
@@ -141,6 +141,7 @@ Aby połączyć się z WebSocketem można skorzystać z darmowej wtyczki do prze
 ```json
 {"command": "loop_track", "payload": true}
 ```
+
 
 
 
